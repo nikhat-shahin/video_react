@@ -3,9 +3,9 @@ import { render } from "react-dom";
 import Hello from "./Hello";
 import { Player ,ControlBar, VolumeMenuButton, Shortcut } from "video-react";
 import "video-react/dist/video-react.css";
-// import Vertical from '../src/sample_videos/vertical.mp4';
+import Vertical from '../src/sample_videos/vertical.mp4';
 import verticalWithoutSound from '../src/sample_videos/vertical_without _sound.mp4';
-// import Square from '../src/sample_videos/Square.mp4';
+import Square from '../src/sample_videos/Square.mp4';
 
 //test url src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
 
@@ -16,7 +16,7 @@ const styles = {
 
 const App = () => (
   <div style={styles}>
-    {/* <Hello name="Square Video" />
+    <Hello name="Square Video" />
     <Player autoPlay muted loop>
       <source
         src={Square}
@@ -37,7 +37,7 @@ const App = () => (
       <ControlBar autoHide={false} disableDefaultControls>
         <VolumeMenuButton vertical />
       </ControlBar>
-    </Player> */}
+    </Player>
     <Hello name="Vertical Video without sound" />
     <Player autoPlay muted loop>
       <source
