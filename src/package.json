@@ -1,0 +1,12 @@
+{
+  "name": "video-react-demo-main",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "video-react": "0.15.0"
+  }
+}
